@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal | www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Profile - Faculty</title>
+    <link rel="stylesheet" href="../static/styles/adminstyle.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dce976e4ed.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="../static/images/admin.png" alt="" height="120" width="120" style=" margin-left: 60px; margin-top: 80px;">
+    </div>
+    <span class="center" style="color: #ffffff; font-size: 24px; font-weight: 500;">Faculty Name</span>
+      <ul class="nav-links" style="margin-top: 150px; margin-left: -32px;">
+        <li>
+          <a href="/facultyprofile" class="active">
+            <i class="fa-solid fa-user"></i>
+            <span class="links_name">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="../templates/facultystulist.html">
+            <i class="fa-solid fa-users"></i>
+            <span class="links_name">Student List</span>
+          </a>
+        </li>
+        <li>
+            <a href="/contact">
+              <i class="fa-solid fa-circle-info"></i>
+              <span class="links_name">Contact Admin</span>
+            </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <span class="dashboard">Faculty Dashboard</span>
+      </div>
+      <div class="profile-details">
+        <img src="../static/images/admin.png" alt="">
+        <span class="admin_name">Faculty</span>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="number" style="margin-top: 30px;">Profile Details</div>
+
+        <div class="box" style="margin-top: 30px; padding: 50px;">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="row">Name</th>
+                <td>Mark</td>
+              </tr>
+              <tr>
+                <th scope="row">Email</th>
+                <td>mark12@gmail.com</td>
+              </tr>
+              <tr>
+                <th scope="row">Username</th>
+                <td colspan="2">Larry the Bird</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
